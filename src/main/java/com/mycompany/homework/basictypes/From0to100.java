@@ -57,6 +57,7 @@ public class From0to100 {
         System.out.println("Сумма элементов кратных 3 - " + sum_3);
         System.out.println("Сумма элементов кратных 5 - " + sum_5);
         System.out.println("Сумма элементов кратных 7 - " + sum_7);
+        
     }
     
 }
