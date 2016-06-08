@@ -14,6 +14,9 @@ public class Task2 {
         Random random_number = new Random();
         int rand = random_number.nextInt(100);
         switch (rand){
+                            case 0:
+                System.out.println("ноль " + rand);
+                break;            
                             case 1:
                 System.out.println("один " + rand);
                 break;
