@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.homework.basictypes;
+package Task2_main_constructions;
 
 /**
  *
  * @author Alina
  */
-public class From0to100 {
+public class Task1 {
     public static void main(String[] args) {
         int multiple_2; 
         int multiple_3; 
@@ -34,31 +34,16 @@ public class From0to100 {
                     sum_7 += i;
                     System.out.println("Кратное 7 - " +i); }
                 }
-                /*if (i % 2 == 0){
-                sum_2 += i;
-                System.out.println(i + " ");
-                }
-                }
-                if (i % 3 == 0){
-                sum_3 += i;
-                System.out.println(i + " ");
-                }
-                if (i % 5 == 0){
-                sum_5 += i;
-                System.out.println(i + " ");
-                }
-                if (i % 7 == 0){
-                sum_7 += i;
-                System.out.println(i + " ");
-                }*/
             }
         
         System.out.println("Сумма элементов кратных 2 - " + sum_2);
         System.out.println("Сумма элементов кратных 3 - " + sum_3);
         System.out.println("Сумма элементов кратных 5 - " + sum_5);
-        System.out.println("Сумма элементов кратных 7 - " + sum_7);
+        System.out.println("Сумма элементов кратных 7 - " + sum_7);        
+        System.out.println("Разница сумм элементов кратных 7 и 2 - " + (sum_7-sum_2)); 
+        float ratio_of_5_to_3 = (float) sum_5/sum_3;
+        System.out.println("Отношение сумм элементов кратных 5 и 3 - " + ratio_of_5_to_3);
         
-    }
-    
+    }   
 }
 

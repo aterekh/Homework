@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.homework.basictypes;
+package Task1_basic_types;
 import java.lang.Math.*;
 import java.util.Scanner;
 
 /**
  *
  */
-public class Task2 {
+public class Task2_3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 //        final double Math.PI = 3.14;

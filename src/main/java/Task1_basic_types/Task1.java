@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.homework.basictypes;
+package Task1_basic_types;
 
 /**
  *
  * @author Alina
  */
-public class Task1_println {
+public class Task1 {
     public static void main(String[] args) {
         
         String s = "\"Я люблю\"\nRock`n`Roll";
